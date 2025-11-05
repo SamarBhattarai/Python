@@ -1,0 +1,7 @@
+f = open("hello.txt", "r")
+print(f)
+print(type(f))
+text = f.read()
+print(type(text))
+print(text)
+f.close()
